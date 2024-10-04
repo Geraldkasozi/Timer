@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timer, .btns {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; /* Added to center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.applieddate{
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.timer{
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.timer div > span{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 120px;
+    padding: 5px;
+}
+.btns button{
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
